@@ -115,6 +115,96 @@ header ul a{
    
 }
 
+.hero{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-info{
+    position: absolute;
+    left: 5%;
+}
+
+.hero-info .hero-info-title{
+    color: #727fde;
+    padding: 8px 5px;
+    border-radius: 50px;
+    border: 1px solid #727fde77;
+    width: 240px;
+    background-color: #2200493d;
+    box-shadow: 0 0 5px #72a1de88;
+    border-radius: 50px;
+}
+
+.hero-info h1{
+    font-size: 60px;
+    max-width: 600px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.hero-info p{
+    max-width: 550px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.hero-info button{
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: 1px solid #727fdeb4;
+    background-color: #2200493d;
+    box-shadow: 0 0 5px #727fde86;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-info button:hover{
+    box-shadow: 0 0 15px #72a1de81;
+}
+
+.gradient{
+    background: linear-gradient(to right,#00aaa7, #7e42a7, #6600c5, #6070fd,#2a46ff, #0099ff, #008ead);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+@keyframes animate-gradient {
+    to{
+        background-position: 200%;
+    }
+}
+
+.skills-video-box{
+    position: absolute;
+    right: 3%;
+}
+
+.skills-video{
+    height: 900px;
+    mix-blend-mode:lighten;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
