@@ -129,7 +129,7 @@ header ul a{
     left: 5%;
 }
 
-.hero-info .hero-info-title{
+.hero-info-title{
     color: #727fde;
     padding: 8px 5px;
     border-radius: 50px;
@@ -138,6 +138,10 @@ header ul a{
     background-color: #2200493d;
     box-shadow: 0 0 5px #72a1de88;
     border-radius: 50px;
+}
+
+.hero-info-title:hover{
+    box-shadow: 0 0 15px #72a1de81;
 }
 
 .hero-info h1{
