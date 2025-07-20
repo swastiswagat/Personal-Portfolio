@@ -201,22 +201,24 @@
             <p>Wheter you're looking to build a new website, improve your existing platform, or bring a unique project
                 to file. i'm here to help.</p>
 
-            <form action= https://formspree.io/f/mgvzozga method="POST">
+            <form action="https://formspree.io/f/mgvzozga" method="POST">
                 <input type="hidden" name="_subject" value="New Message from Your Website!">
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_template" value="box">
                 <input type="hidden" name="_autoresponse" value="Thank you! I’ll get back to you shortly.">
 
                 <p>Full Name</p>
-                <input type="text" name="Full Name" placeholder="Your Full name" required>
+                <input name="name" placeholder="Your Full Name" type="text" required>
 
                 <p>Email Address</p>
-                <input type="email" name="Email" placeholder="Your Email" required>
+                <input name="email" placeholder="Your Email" type="email" required>
 
                 <p>Your Message</p>
-                <textarea name="Message" placeholder="Share your thoughts..." required></textarea>
+                <textarea name="message" class="input-message" 
+                style="width: 80%; height: 25px; padding:7.5px 30px; border: none; border-top-right-radius: 10px; border-bottom-right-radius: 10px;"
+                placeholder="Share your thoughts..." required></textarea>
 
-                <button type="submit">Send Message ✉</button>
+                <button type="submit">Send Message <i class='bx bx-mail-send'></i></button>
             </form>
 
         </div>
