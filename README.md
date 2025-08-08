@@ -6,7 +6,7 @@ This is my personal portfolio website showcasing my projects, skills, resume, an
 
 ---
 
-## ✨ Features
+## ✨ Features 
 
 -  Stylish and responsive user interface  
 -  Smooth scroll navigation  
