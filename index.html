@@ -13,7 +13,9 @@
 
 <body>
     <div class="container">
-        <video class="back-vid" loop autoplay muted plays-inline src="videos/galaxy.mp4"></video>
+        <video class="back-vid" loop autoplay muted plays-inline>
+            <source src="https://pub-67211ed527de41d0bb49aa553d1f372b.r2.dev/galaxy.mp4" type="video/mp4">
+        </video>
 
         <header>
             <div class="left">
@@ -35,7 +37,9 @@
             </div>
         </header>
         <div class="blackhole-box">
-            <video loop autoplay muted plays-inline src="videos/blackhole.mp4" type="video/mp4"></video>
+            <video loop autoplay muted plays-inline>
+                <source src="https://pub-67211ed527de41d0bb49aa553d1f372b.r2.dev/blackhole.mp4" type="video/mp4">
+            </video>
         </div>
 
         <section class="hero ">
@@ -51,12 +55,14 @@
                 <p>I'm a front-end developer with experience in Website, Mobile and Software development. Check out my
                     projects and skills.</p>
 
-                <button><i class='bx bx-send'></i> <a href="#contact" style="color: inherit; text-decoration: none;">Contact Me</a></button>
+                <button><i class='bx bx-send'></i> <a href="#contact"
+                        style="color: inherit; text-decoration: none;">Contact Me</a></button>
             </div>
 
             <div class="skills-video-box ">
-                <video class="skills-video autoBlur" autoplay loop muted plays-inline
-                    src="videos/hero-video.mp4"></video>
+                <video class="skills-video autoBlur" autoplay loop muted plays-inline></video>
+                <source src="https://pub-67211ed527de41d0bb49aa553d1f372b.r2.dev/hero-video.mp4" type="video/mp4">
+                </video>
             </div>
 
             <div class="scroll-down"></div>
@@ -85,9 +91,12 @@
                     <h1>I’m very flexible with time zone communications & locations</h1>
                     <p>I'm based in Bhubaneswar, India and open to remote work worldwide.</p>
 
-                    <video src="videos/glob.mp4" autoplay loop muted plays-inline></video>
+                    <video autoplay loop muted plays-inline>
+                        <source src="https://pub-67211ed527de41d0bb49aa553d1f372b.r2.dev/glob.mp4" type="video/mp4">
+                    </video>
 
-                    <button><i class='bx bx-send'></i> <a href="#contact" style="color: inherit; text-decoration: none;">Contact Me</a></button>
+                    <button><i class='bx bx-send'></i> <a href="#contact"
+                            style="color: inherit; text-decoration: none;">Contact Me</a></button>
                 </div>
 
                 <div class="card">
@@ -102,46 +111,70 @@
 
         <section id="projects" class="my-project">
             <h1 class="section-title autoDisplay">My Projects 👨‍💻</h1>
+
+            <!-- Project 1: Momo Mia Cloud Kitchen -->
             <div class="project-card">
                 <div class="project-vidbox autoBlur">
-                    <video loop id="projectVideo1" src="videos/project1.mp4"></video>
+                    <video loop id="projectVideo1">
+                        <source
+                            src="https://pub-67211ed527de41d0bb49aa553d1f372b.r2.dev/MOMOMIA%20-%2012%20August%202025.mp4"
+                            type="video/mp4">
+                    </video>
                     <div class="hover-sign"></div>
                 </div>
                 <div class="project-info fadein-left">
-                    <h1>Animated <span class="gradient">Gaming</span> Website</h1>
-                    <p>A dynamic gaming portal featuring interactive animations, game showcases, and community features
-                        with smooth transitions and engaging UI elements.</p>
-                    <button><i class='bx bx-link-external'></i> Website</button>
+                    <h1>Momo Mia <span class="gradient">Cloud Kitchen</span> Website</h1>
+                    <p>A fully functional cloud kitchen web application designed for Momo Mia.
+                        Features an online menu, order placement system, and smooth animations for an engaging
+                        food-ordering experience.
+                        Includes responsive design for both desktop and mobile users.</p>
+                    <button>
+                        <i class='bx bx-link-external'></i>
+                        <a style="color: inherit; text-decoration: none;" href="https://cloud-kitchen-gamma-five.vercel.app/"> Website</a>
+                    </button>
                 </div>
             </div>
 
+            <!-- Project 2: Modern Portfolio Website -->
             <div class="project-card">
                 <div class="project-vidbox autoBlur">
                     <video loop id="projectVideo2" src="videos/project-2.mp4"></video>
                 </div>
                 <div class="project-info fadein-left">
                     <h1> Modern <span class="gradient">Portfolio</span> Website </h1>
-                    <p>A sleek professional portfolio with minimalist design, responsive layout, and elegant animations
-                        to showcase creative work effectively.</p>
-                    <button><i class='bx bx-link-external'></i><a style="color: inherit; text-decoration: none;"
-                            href="https://personal-portfolio-blush-one.vercel.app/"> Website</a></button>
+                    <p>A personal portfolio site built with a sleek, modern design and minimalist layout.
+                        Highlights projects, skills, and achievements with smooth animations and fully responsive pages
+                        for an elegant browsing experience.</p>
+                    <button>
+                        <i class='bx bx-link-external'></i>
+                        <a style="color: inherit; text-decoration: none;"
+                            href="https://personal-portfolio-blush-one.vercel.app/"> Website</a>
+                    </button>
                 </div>
             </div>
 
+            <!-- Project 3: Gym Website Template -->
             <div class="project-card">
                 <div class="project-vidbox autoBlur">
-                    <video loop id="projectVideo3" src="videos/project3.mp4"></video>
+                    <video loop id="projectVideo3">
+                        <source
+                            src="https://pub-67211ed527de41d0bb49aa553d1f372b.r2.dev/Gym%20Website%20Template%20-%2012%20August%202025.mp4"
+                            type="video/mp4">
+                    </video>
                 </div>
-
                 <div class="project-info fadein-left">
-                    <h1>Movie <span class="gradient">Landing</span> Page</h1>
-                    <p>A movie hub where users can explore trending films, watch trailers, and find high-quality
-                        streaming options with personalized recommendations and also downloading option in all format.
-                    </p>
-                    <button><i class='bx bx-link-external'></i> Website</button>
+                    <h1>Gym <span class="gradient">Website</span> Template</h1>
+                    <p>A professional gym website template featuring a modern design, class schedules, trainer profiles,
+                        membership details, and fitness program highlights. Built to be responsive and visually
+                        appealing across devices.</p>
+                    <button>
+                        <i class='bx bx-link-external'></i>
+                        <a style="color: inherit; text-decoration: none;" href="https://swastiswagat.github.io/Gym-Website/"> Website</a>
+                    </button>
                 </div>
             </div>
         </section>
+
 
     </div>
 
@@ -231,7 +264,8 @@
         <div class="box-icons">
             <p><a href="https://www.youtube.com/channel/UClWqvLIVYbgAB31Ve1FB6cw"><i class='bx bxl-youtube'></i></a></p>
             <p><a href="https://github.com/swastiswagat"><i class='bx bxl-github'></i></a></p>
-            <p><a href="https://www.linkedin.com/in/swasti-swagat-492018270/"><i class='bx bxl-linkedin-square'></i></a></p>
+            <p><a href="https://www.linkedin.com/in/swasti-swagat-492018270/"><i class='bx bxl-linkedin-square'></i></a>
+            </p>
         </div>
     </section>
 
