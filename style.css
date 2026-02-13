@@ -505,6 +505,41 @@ header ul a:hover{
 }
 
 
+.more-projects {
+    text-align: center;
+    margin: 80px 0;
+    margin-top: -400px;
+}
+
+.more-projects h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.more-projects p {
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+
+.github-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #6a5cff, #00d4ff);
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.github-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 212, 255, 0.4);
+}
+
+
 
 
 /* Skills section */
@@ -642,11 +677,24 @@ header ul a:hover{
     position: relative;
 }
 
-.contact-section h1{
+.section-title{
     position: absolute;
-    top: 10%;
-    left: 40%;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
 }
+
+
+
+/* .contact-section h1{
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+} */
+
 
 .social-box {
     display: flex;
